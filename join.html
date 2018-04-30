@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1200">
+	<title>자코모발렌티니 | GIACOMOVALENTINI</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/slick.min.css" type="text/css">
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/slick.min.js"></script>	
+   	<script src="js/common_script.js"></script>
+</head>
+<body>
+	<!-- header -->
+	<header class="header">
+		<div class="header_outer">
+			<div class="header_inner clearfix">
+				<h1 class="hover_opt"><a href="index.html">GIACOMO VALENTI</a></h1>
+				<nav class="d-none" id="nav">
+					<ul class="nav-menu">
+						<li><a href="concept.html" class="hover_opt">Concept</a></li>
+						<li><a href="production.html" class="hover_opt">Production</a></li>
+						<li><a href="item.html" class="hover_opt">Products</a></li>
+						<li><a href="news.html" class="hover_opt">NEWS</a></li>
+						<li onmouseover="navSubmenu();">
+							<a href="javascript:;" class="hover_opt">Community</a>
+							<ul class="nav-submenu">
+								<li><a href="#">Celebrity</a></li>
+								<li><a href="#">FAQ</a></li>
+								<li><a href="#">A/S게시판</a></li>
+								<li><a href="#">구매후기</a></li>
+							</ul>
+						</li>
+					</ul>
+					<div class="nav-right">
+						<div class="nav-guide">
+							<ul>
+								<li><a href="request.html" class="hover_opt"><span><img src="img/icon_proposal.png" alt="신규 거래 희망 의뢰" /></span>신규 거래 희망 의뢰</a></li>
+								<li><a href="guide.html" class="hover_opt">이용 가이드</a></li>
+							</ul>
+						</div>
+						<div class="nav-sns">
+							<a href="#" class="hover_opt"><img src="img/hd_sns1.png" alt="인스타그램" title="인스타그램" width="26" height="26" /></a>
+							<a href="#" class="hover_opt"><img src="img/hd_sns2.png" alt="페이스북" title="페이스북" width="26" height="26" /></a>
+						</div>
+					</div>
+				</nav>
+				<div class="nav-hamburger" id="nav-hamburger" onclick="hamburgerMenu();">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header -->
+	<!-- aside -->
+	<aside class="aside">
+		<div class="aside-btn">
+			<a href="login.html">
+				<img src="img/aside_icon1.png" alt="로그인/마이 페이지" />
+				<p>로그인</p>
+			</a>
+		</div>
+		<div class="aside-btn">
+			<a href="contact.html">
+				<img src="img/aside_icon2.png" alt="문의하기" />
+				<p>문의하기</p>
+			</a>
+		</div>
+	</aside>
+	<!-- aside -->
+	<!-- container -->
+	<div class="container">
+		<section class="login sec_sub">
+			<div class="inner_container">
+				<div class="join_container clearfix">
+					<h3>회원가입</h3>
+					<strong class="join_caution">이 회원 가입 양식을 제출하는 개인 정보의 취급에 대해서는 세심한 주의를 기울이고 있습니다.<br/>
+					맡은 고객의 정보는 본인에 문의 내용에 대한 답변이나 정보 제공의 목적이며, 다른 목적으로 사용할 수 없습니다.<br/>
+					자세한 내용은 "개인 정보 보호 정책"을 참조하십시오.<br/>
+					*로 표시된 항목은 필수가 되고 있습니다. 빠짐없이 기입 해주십시오.<br/>
+					숫자는 반각으로 기입을 부탁드립니다.</strong>
+					<div class="join_formWrap">
+						<div class="join_row">
+							<label for="your-mail" class="required">이메일 주소</label>
+							<input type="text" name="your-mail" />
+						</div>
+						<div class="join_row">
+							<label for="your-mail-repeat" class="required">이메일 주소 (확인용)</label>
+							<input type="text" name="your-mail-repeat" />
+						</div>
+						<div class="join_row">
+							<label for="your-mail" class="required">비밀번호</label>
+							<input type="password" name="your-mail" />
+						</div>
+						<div class="join_row">
+							<label for="your-mail-repeat" class="required">비밀번호 (확인용)</label>
+							<input type="password" name="your-mail-repeat" />
+						</div>
+						<div class="join_row">
+							<label for="your-name-first" class="required">이름</label>
+							<div class="nameWrap">
+								<div class="nameBox">
+									<span>성</span>
+									<input type="text" name="your-name-first" />
+								</div>
+								<div class="nameBox">
+									<span>이름</span>
+									<input type="text" name="your-name-first" />
+								</div>
+							</div>
+						</div>
+						<div class="join_row">
+							<label for="your-mail-repeat" class="required">우편번호</label>
+							<input type="text" name="your-address" style="width:120px;"/>
+							<input type="button" name="your-address-search" value="주소 검색" class="gold_btn" />
+						</div>						
+						<div class="join_row">
+							<label for="your-mail-repeat" class="required">기본주소</label>
+							<input type="text" name="your-address-1st" />
+						</div>						
+						<div class="join_row">
+							<label for="your-mail-repeat" class="required">나머지주소</label>
+							<input type="text" name="your-address-2nd" />
+						</div>						
+						<div class="join_row">
+							<label for="your-phone" class="required">전화번호</label>
+							<input type="text" name="your-phone" />
+						</div>					
+					</div>
+					<div class="join_btn">
+						<input type="submit" name="join_btn" value="보내기" class="your-submit" />
+					</div>	
+				</div>
+			</div>
+			<div class="pageTop hover_opt" id="pageTop">
+				<span><a href="#" onclick="scrolltoTop();">TOP</a></span>
+			</div>			
+		</section>
+	</div>
+	<!-- container -->
+	<!-- footer -->	
+	<footer class="sec4">
+		<div class="sec4_inner clearfix">
+			<div class="sec4_instagram">
+				<h2>Instagram</h2>
+				<div class="sec4_snsInner">
+					<div class="sec4_iframe">
+						<img src="img/instagram_thumb.jpg" alt="인스타그램 API 위치" title="인스타그램 API 위치" />
+					</div>
+				</div>
+			</div>
+			<div class="sec4_facebook">
+				<h2>facebook</h2>
+				<div class="sec4_snsInner">
+					<div class="sec4_iframe">
+						<img src="img/facebook_thumb.jpg" alt="페이스북 API 위치" title="페이스북 API 위치" />
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="sec4_footer">
+			<ul class="footer_left">
+				<li><a href="concept.html" class="hover_opt">Concept</a></li>
+				<li><a href="production.html" class="hover_opt">Production</a></li>
+				<li><a href="item.html" class="hover_opt">Products</a></li>
+				<li><a href="news.html" class="hover_opt">NEWS</a></li>
+				<li><a href="request.html" class="hover_opt">신규 거래 희망 의뢰</a></li>
+				<li><a href="guide.html" class="hover_opt">이용 가이드</a></li>
+				<li><a href="#" class="hover_opt">Celebrity</a></li>				
+				<li><a href="#" class="hover_opt">FAQ</a></li>
+				<li><a href="#" class="hover_opt">A/S 게시판</a></li>
+				<li><a href="#" class="hover_opt">회사소개</a></li>
+				<li><a href="#" class="hover_opt">개인정보보호정책</a></li>
+				<li><a href="#" class="hover_opt">특정 상거래에 관한 표기</a></li>
+			</ul>
+			<div class="footer_right">
+				<div class="footer_rightInner">
+					<a href="#" class="hover_opt"><img src="img/hd_sns1.png" width="26" height="26" alt="인스타그램" /></a>
+					<a href="#" class="hover_opt"><img src="img/hd_sns2.png" width="26" height="26" alt="페이스북" /></a>
+				</div>
+			</div>
+			<p class="footer_bottom">COPYRIGHT ACCESS JAPAN CO., LTD. ALL RIGHTS RESERVE</p>
+		</div>					
+	</footer>
+	<!-- footer -->
+</body>
+</html>
