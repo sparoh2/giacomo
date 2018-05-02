@@ -29,7 +29,7 @@
     display:block;
     width:100%;
     position:absolute;
-    padding-top:16px;
+    padding:16px 0;
     font-size:16px;
     font-family:'Verdana',sans-serif;
     text-decoration:none;
@@ -113,7 +113,7 @@
 .header .header_inner {
 	width: 1200px;
 	margin:auto;
-	padding-top:25px;
+	padding-top:30px;
 }
 .header h1 {
 	width:88px;
@@ -147,7 +147,7 @@
 .header nav .nav-menu li {
 	display:inline-block;
 	letter-spacing:0.05em;
-	padding: 18px 20px;
+	padding: 14px 20px;
 }
 .header nav .nav-menu li a {
 	color:#ddd;
@@ -212,6 +212,7 @@
 .header nav .nav-guide li a {
 	color:#ddd;
 	font-size:14px;
+    font-family:'Malgun Gothic';
 	text-decoration:none;
 	line-height:14px;
 	position:relative;
@@ -264,6 +265,7 @@
 }
 .aside .aside-btn a p {
 	line-height: 120%;
+    font-family:'Malgun Gothic';
 }
 .aside .aside-btn a img {
 	width:24px;
@@ -335,8 +337,11 @@
 	position:relative;	
 	float:left;
 	margin-right:1px;
+    text-indent:-1000em;
 	cursor:pointer;
-	transition:all .3s;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	transition:all 0.3s;    
 }
 .main-slide-nav .slick-arrow:hover {
 	opacity:0.8;
@@ -454,6 +459,7 @@
 }
 .sec1 .sec1_inner .sec1_txt p {
 	font-family:"Verdana","Malgun Gothic";
+    font-size:14px;
 	min-height:87px;
 	line-height:150%;
 }
@@ -481,6 +487,7 @@
 	display:inline-block;
 	padding:0 20px;
 	font-family:'Malgun Gothic';
+    font-size:14px;
 }
 .line_txt::before,
 .line_txt::after {
@@ -531,6 +538,7 @@
 }
 .sec2 .sec2_coord strong {
 	font-family:'Verdana',sans-serif;
+    font-size:1rem;
 	display:block;
 	height:48px;
 	margin-top:80px;
@@ -583,7 +591,7 @@
 	width: 75%;
 	margin:auto;
 }
-.sec3 .sec3_inner h2 {
+.sec3 .sec3_inner .h2 {
 	font-size:3rem;
 	font-family:"Times New Roman",serif;
 	font-weight:bold;
@@ -592,7 +600,7 @@
 	border-bottom:1px solid #222;
 	margin:1% auto 4%;
 }
-.sec3 .sec3_inner h2 .line_txt {
+.sec3 .sec3_inner .h2 .line_txt {
 	font-size:14px;
 	font-family:'Malgun Gothic';
 	letter-spacing:-0.03em;
@@ -765,7 +773,7 @@
 .sec4 .footer_left li {
 	display:inline-block;
 	float:left;
-	margin-right:32px;
+	margin-right:28px;
 }
 .sec4 .footer_left li a {
 	color:#fff;
@@ -788,7 +796,7 @@
 .sec4 .footer_right {
 	display:inline-block;
 	position:relative;
-	top:-23px;
+	top:-38px;
 }
 .sec4 .footer_right .footer_rightInner a {
 	display:inline-block;
@@ -2158,4 +2166,116 @@
 }
 .join_btn {
 	text-align:center;
+}
+.item_detailWrap {
+	float:left;
+	width:85%;
+	overflow:hidden;
+}
+.item_detailWrap .item_detail {
+	float:left;
+	width: 67%;
+	margin-left: 4%;
+}
+.item_detailWrap .item_detail .item_thumb {
+	width:100%;
+	height:740px;
+	overflow:hidden;
+}
+.item_detailWrap .item_detail a img {
+	width:100%;
+}
+.item_detailWrap .item_spec {
+	float:right;
+	width: 23%;
+	margin-left: 4%;
+}
+.item_detailWrap .item_title {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    display: block;
+    line-height:150%;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-align: left;
+    padding: 0 0 2%;
+    border-bottom: 1px solid #000;
+    margin-bottom: 15px;
+}
+.item_detailWrap .item_specDepth {
+	margin-bottom:40px;
+}
+.item_detailWrap .item_specDepth p {
+	font-size:14px;
+	font-weight:400;
+	font-family:'Malgun Gothic';
+	line-height:150%;
+}
+.item_detailWrap .item_specDepth .item_model {
+	display:block;
+	font-size:1.5rem;
+	font-weight:400;
+	margin-bottom:10px;
+}
+.item_detailWrap .item_specDepth .item_price {
+	font-size:20px;
+	font-weight:400;
+	margin-top:20px;
+}
+.item_detailWrap .item_specDepth .item_price span {
+	font-size:14px;
+	font-weight:400;
+	margin-left:5px;
+}
+.item_detailWrap .item_specDepth .item_miniThumb a {
+	display:block;
+	width:135px;
+	height:135px;	
+	border:1px solid #ccc;
+}
+.item_detailWrap .item_specDepth .item_miniThumb a img.miniThumb_img {
+	width:100%;
+}
+.item_detailWrap .item_detail .item_detail_pager {
+	text-align:center;
+	margin-bottom:70px;
+}
+.item_detailWrap .item_detail .item_detail_pager p {
+	display:block;
+	font-size:14px;
+	margin-bottom:20px;
+}
+.item_detailWrap .item_detail .item_detail_pager .bx-prev,
+.item_detailWrap .item_detail .item_detail_pager .bx-next {	
+	background: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 50px;
+    width:60px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.item_detailWrap .item_detail .item_detailInfo {
+	margin-bottom:40px;
+}
+.item_detailWrap .item_detail .item_detailInfo p {
+	font-size:14px;
+	line-height:150%;
+}
+.item_detailWrap .item_detail .item_detailInfo .item_otherCut a {
+	width:75px;
+	height:75px;
+	border:1px solid #ccc;	
+	float:left;
+	margin-right:5px;
+	display:block;
+}
+.item_detailWrap .item_detail .item_detailInfo .item_otherCut a.active {
+	border:1px solid #000;
+}
+.item_detailWrap .item_detail .item_detailInfo .item_otherCut a img {
+	width:100%;
+}
+.bx-wrapper {
+	box-shadow:inherit !important;
 }

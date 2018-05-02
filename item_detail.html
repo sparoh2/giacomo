@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1200">
+	<title>자코모발렌티니 | GIACOMOVALENTINI</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/slick.min.css" type="text/css">
+</head>
+<body>
+	<!-- header -->
+	<header class="header">
+		<div class="header_outer">
+			<div class="header_inner clearfix">
+				<h1 class="hover_opt"><a href="index.html">GIACOMO VALENTI</a></h1>
+				<nav class="d-none" id="nav">
+					<ul class="nav-menu">
+						<li><a href="concept.html" class="hover_opt">Concept</a></li>
+						<li><a href="production.html" class="hover_opt">Production</a></li>
+						<li><a href="item.html" class="hover_opt">Products</a></li>
+						<li><a href="news.html" class="hover_opt">NEWS</a></li>
+						<li onmouseover="navSubmenu();">
+							<a href="javascript:;" class="hover_opt">Community</a>
+							<ul class="nav-submenu">
+								<li><a href="#">Celebrity</a></li>
+								<li><a href="#">FAQ</a></li>
+								<li><a href="#">A/S게시판</a></li>
+								<li><a href="#">구매후기</a></li>
+							</ul>
+						</li>
+					</ul>
+					<div class="nav-right">
+						<div class="nav-guide">
+							<ul>
+								<li><a href="request.html" class="hover_opt"><span><img src="img/icon_proposal.png" alt="신규 거래 희망 의뢰" /></span>신규 거래 희망 의뢰</a></li>
+								<li><a href="guide.html" class="hover_opt">이용 가이드</a></li>
+							</ul>
+						</div>
+						<div class="nav-sns">
+							<a href="#" class="hover_opt"><img src="img/hd_sns1.png" alt="인스타그램" title="인스타그램" width="26" height="26" /></a>
+							<a href="#" class="hover_opt"><img src="img/hd_sns2.png" alt="페이스북" title="페이스북" width="26" height="26" /></a>
+						</div>
+					</div>
+				</nav>
+				<div class="nav-hamburger" id="nav-hamburger" onclick="hamburgerMenu();">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header -->
+	<!-- aside -->
+	<aside class="aside">
+		<div class="aside-btn">
+			<a href="login.html">
+				<img src="img/aside_icon1.png" alt="로그인/마이 페이지" />
+				<p>로그인</p>
+			</a>
+		</div>
+		<div class="aside-btn">
+			<a href="contact.html">
+				<img src="img/aside_icon2.png" alt="문의하기" />
+				<p>문의하기</p>
+			</a>
+		</div>
+	</aside>
+	<!-- aside -->
+	<div class="sub_navigator">
+		<div class="sub_navWrap">
+			<a href="index.html" class="next">홈</a>
+			<span class="now">Products</span>
+		</div>
+	</div>	
+	<!-- container -->
+	<div class="container">
+		<div class="sec_sub">
+			<div class="sec_subInner clearfix">
+				<div class="item_aside">
+					<p>TYPE</p>
+					<select class="itemSelection">
+						<option>선택하세요</option>
+						<option value="all">ALL (모두)</option>
+						<option value="men">MEN (남성)</option>
+						<option value="women">WOMEN (여성)</option>						
+					</select>
+					<p>SERIES</p>
+					<select class="itemSelection">
+						<option value="">선택하세요</option>
+				 	 	<option value="42">NYLON (나일론)</option>
+			 	 		<option value="43">CANVAS (캔버스)</option>
+			 	 		<option value="44">LEATHER (가죽)</option>
+			 	 	 	<option value="45">CAMOUFLAGE (위장)</option>
+			 	 	 	<option value="46">CARBON (탄소)</option>
+			 	 		<option value="47">SPORTS (스포츠)</option>
+			 	 	 	<option value="48">LIMITED (한정)</option>
+			 	 	 	<option value="49">SPECIAL OFFERS</option>
+			 	 	 	<option value="52">BUSINESS (비즈니스</option>
+			 	 	 	<option value="107">SPECIAL OFFERS | NYLON</option>
+					</select>
+					<p>ITEM TYPE</p>
+					<select class="itemSelection">
+						<option value="">선택하세요</option>
+				 	 	<option value="32">[BUSINESS / 비즈니스 가방]</option>
+			 	 	 	<option value="13">CLUTCH (클러치 백)</option>
+			 	 	 	<option value="14">BRIEFCASE (서류 가방)</option>
+			 	 	 	<option value="15">TOTE BAG (토트 백)</option>
+			 	 	 	<option value="16">2WAY BAG<</option>
+			 	 	 	<option value="17">3WAY BAG</option>
+					 	<option value="33">[CASUAL / 캐주얼]</option>
+			 	 	 	<option value="18">BACKPACK (백팩)</option>
+			 	 		<option value="19">SHOULDER BAG (숄더백)</option>
+			 	 	 	<option value="20">BODY BAG (신체 가방)</option>
+			 	 	 	<option value="21">TOTE BAG (토트 백)</option>
+			 	 	 	<option value="36">BOSTON BAG (보스톤 백)</option>
+			 	 	 	<option value="53">CLUTCH (클러치 백)</option>
+			 	 	 	<option value="57">BRIEFCASE (서류 가방)</option>
+					 	<option value="34">[BAG ETC / 가방 기타]</option>
+			 	 	 	<option value="22">CARRY CASE (휴대용 케이스)</option>
+					 	<option value="35">[SMALL GOODS / 소품]</option>
+			 	 	 	<option value="23">POUCH (파우치)</option>
+			 	 	 	<option value="24">KEY CASE (키 케이스)</option>
+			 	 	 	<option value="25">PEN CASE (필통)</option>
+			 	 	 	<option value="26">CARD CASE (카드 명함 지갑)</option>
+			 	 	 	<option value="27">PASS CASE (패스 케이스)</option>
+			 	 	 	<option value="28">COIN CASE (코인)</option>
+			 	 	 	<option value="29">WALLET LONG (지갑)</option>
+			 	 	 	<option value="30">WALLET HARF (지갑)</option>
+			 	 	 	<option value="31">ETC (기타)</option>
+						</select>
+					<p>MATERIAL</p>
+					<select class="itemSelection">
+						<option value="">선택하세요</option>
+						<option value="nylon">Nylon (나일론 조합)</option>						
+						<option value="leather">Leather (가죽 콤비네이션)</option>
+						<option value="carbon">Carbon (탄소 섬유 조합)</option>						
+					</select>	
+					<p>COLOR</p>
+					<select class="itemSelection">
+						<option value="">선택하세요</option>
+						<option value="117">530403NYLCAMVERDE</option>
+						<option value="118">530002NYLONCAMO</option>
+						<option value="119">530103NYLCAMVERDE</option>
+						<option value="120">530102NYLONCAMO</option>
+						<option value="121">311815CAMOFRANCE</option>
+					</select>
+					<p>PRICE</p>
+					<select class="itemSelection">
+						<option value="">선택하세요</option>
+						<option value="57">50,000원 이하</option>
+						<option value="59">50,000원 ~ 100,000원</option>
+						<option value="51">100,000원 ~ 150,000원</option>
+						<option value="50">150,000원 ~ 200,000원</option>
+						<option value="79">200,000원 ~ 250,000원</option>
+						<option value="69">250,000원 ~ 300,000원</option>
+						<option value="89">300,000원 ~ 350,000원</option>
+						<option value="49">350,000원 ~ 400,000원</option>
+						<option value="29">400,000원 ~ 450,000원</option>
+						<option value="89">450,000원 ~ 500,000원</option>
+						<option value="93">500,000원 이상</option>
+					</select>	
+					<div class="itemCheckbox">
+						<input type="checkbox" name="sale__only" />
+						<strong>SALE 상품만</strong>
+					</div>	
+					<div class="itemInputbox">
+						<input type="text" type="item_no" placeholder="상품번호" />
+						<input type="text" type="item_keyword" placeholder="키워드" />
+					</div>
+					<div class="itemSubmit">
+						<input type="submit" value="검색" class="itemSubmit_btn" />
+					</div>																						
+				</div>
+				<div class="item_detailWrap">
+					<div class="item_detail">
+						<div class="item_thumb clearfix">
+							<a href="img/detail/530403.jpg">
+								<img src="img/detail/530403.jpg" alt="530403" />
+							</a>
+							<a href="img/detail/530403.jpg">
+								<img src="img/detail/530403.jpg" alt="530403" />
+							</a>
+						</div>
+						<div class="item_detail_pager">
+							<p>이미지에 마우스를 올려 놓으면 확대됩니다.</p>
+							<a href="#" class="prev hover_opt" id="bxslider-prev"></a>
+							<a href="#" class="next hover_opt" id="bxslider-next"></a>								
+						</div>
+						<div class="item_detailInfo">
+							<h4 class="item_title">OTHER CUT</h4>
+							<div class="item_otherCut clearfix" id="bx-pager">
+								<a href="#"><img src="img/detail/530403-768x768.jpg" /></a>
+								<a href="#"><img src="img/detail/530403-768x768.jpg" /></a>
+							</div>
+						</div>
+						<div class="item_detailInfo">
+							<h4 class="item_title">DESCRIPTION</h4>
+							<p>메인 소재는 GIACOMO VALENTINI과 세계를 대표하는 하이 패션 모드 브랜드에서도 많이 사용되는 이탈리아 합섬 메이커 "LIMONTA 회사"가 협력하여 특별히 제작 된 위장 무늬와 고급 이태리 가죽 소재를 채용했습니다. 인테리어는 「CORDURA 나일론 "을 사용하여 당기고 마찰, 눈물에 대한 모든에서 강도를 가진 원단을 사용하고 있습니다. 소재 이외의 부품은 모두 자체 생산을하고 독창적 인 제품으로 완성 할 수 있습니다.</p>
+						</div>						
+					</div>
+					<div class="item_spec">
+						<div class="item_specDepth">
+							<h4 class="item_title">MODEL</h4>
+							<strong class="item_model">KUBO-G6</strong>
+							<p class="item_num">번호 : 530403</p>
+							<p class="item_cau">매장에 문의시에는 제품의 번호를 알려주십시오.</p>
+							<p class="item_price">75,000<span>원</span></p>
+						</div>
+						<div class="item_specDepth">
+							<h4 class="item_title">COLOR</h4>
+							<div class="item_miniThumb">
+								<a href="#">
+									<img src="img/detail/530403__01.jpg" alt="530403__01" class="miniThumb_img" />
+								</a>
+							</div>
+						</div>
+						<div class="item_specDepth">
+							<h4 class="item_title">MATERIAL</h4>
+							<p>NYLON CAMO</p>
+							<p>리 몬타나 이론 + 이태리 가죽</p>
+						</div>
+						<div class="item_specDepth">
+							<h4 class="item_title">SIZE</h4>
+							<p>130x245x120mm</p>
+						</div>
+						<div class="item_specDepth">
+							<h4 class="item_title">DETAIL</h4>
+							<p>Open (주 개구부) / 지퍼</p>
+						</div>
+						<div class="item_specDepth">
+							<h4 class="item_title">WEIGHT</h4>
+							<p>150g</p>
+						</div>
+						<div class="item_specDepth">
+							<h4 class="item_title">SHARE</h4>
+							<p></p>
+						</div>													
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- container -->
+	<!-- footer -->	
+	<footer class="sec4">
+		<div class="sec4_inner clearfix">
+			<div class="sec4_instagram">
+				<h2>Instagram</h2>
+				<div class="sec4_snsInner">
+					<div class="sec4_iframe">
+						<img src="img/instagram_thumb.jpg" alt="인스타그램 API 위치" title="인스타그램 API 위치" />
+					</div>
+				</div>
+			</div>
+			<div class="sec4_facebook">
+				<h2>facebook</h2>
+				<div class="sec4_snsInner">
+					<div class="sec4_iframe">
+						<img src="img/facebook_thumb.jpg" alt="페이스북 API 위치" title="페이스북 API 위치" />
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="sec4_footer">
+			<ul class="footer_left">
+				<li><a href="concept.html" class="hover_opt">Concept</a></li>
+				<li><a href="production.html" class="hover_opt">Production</a></li>
+				<li><a href="item.html" class="hover_opt">Products</a></li>
+				<li><a href="news.html" class="hover_opt">NEWS</a></li>
+				<li><a href="request.html" class="hover_opt">신규 거래 희망 의뢰</a></li>
+				<li><a href="guide.html" class="hover_opt">이용 가이드</a></li>
+				<li><a href="#" class="hover_opt">Celebrity</a></li>				
+				<li><a href="#" class="hover_opt">FAQ</a></li>
+				<li><a href="#" class="hover_opt">A/S 게시판</a></li>
+				<li><a href="#" class="hover_opt">회사소개</a></li>
+				<li><a href="#" class="hover_opt">개인정보보호정책</a></li>
+				<li><a href="#" class="hover_opt">특정 상거래에 관한 표기</a></li>
+			</ul>
+			<div class="footer_right">
+				<div class="footer_rightInner">
+					<a href="#" class="hover_opt"><img src="img/hd_sns1.png" width="26" height="26" alt="인스타그램" /></a>
+					<a href="#" class="hover_opt"><img src="img/hd_sns2.png" width="26" height="26" alt="페이스북" /></a>
+				</div>
+			</div>
+			<p class="footer_bottom">COPYRIGHT ACCESS JAPAN CO., LTD. ALL RIGHTS RESERVE</p>
+		</div>					
+	</footer>
+	<!-- footer -->	
+	<!-- Script -->
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/slick.min.js"></script>	
+	<script src="js/common_script.js"></script>
+	<!-- Script -->
+</body>
+</html>
